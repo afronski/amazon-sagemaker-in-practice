@@ -1,0 +1,6 @@
+{
+  "app": "node index.js",
+  "context": {
+    "password": "DUMMY_PASSWORD_THAT_SHOULD_BE_OVERRIDDEN"
+  }
+}
