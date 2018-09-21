@@ -1,0 +1,24 @@
+{
+  "name": "amazon-sagemaker-in-practice-workshop-infrastructure-as-a-code",
+  "version": "1.0.0",
+  "description": "Infrastructure as a Code for our workshop titled Amazon SageMaker in Practice.",
+  "main": "index.js",
+  "keywords": [
+    "AWS",
+    "Amazon Web Services",
+    "Amazon SageMaker",
+    "AWS-CDK"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "author": "Wojciech Gawronski <wojciech.gawronski@pattern-match.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-cdk/aws-iam": "^0.9.2",
+    "@aws-cdk/aws-s3": "^0.9.2",
+    "@aws-cdk/cdk": "^0.9.2",
+    "@types/node": "^10.10.2"
+  }
+}
